@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -e
-# Kontrol
 if [ "$EUID" -ne 0 ]; then
   echo "Root access required, please run this application with root access."
   exit 1
