@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "WE ARE NOT RESPONSIBLE FOR ANY DAMAGE TO YOUR DISK/PC."
+
 set -e
 if [ "$EUID" -ne 0 ]; then
   echo "Root access required, please run this application with root access."
