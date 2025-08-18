@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "WE ARE NOT RESPONSIBLE FOR ANY DAMAGE TO YOUR DISK/PC."
+echo "WE ARE NOT RESPONSIBLE FOR ANY KIND OF DAMAGE TO YOUR DISK/PC."
 
 set -e
 if [ "$EUID" -ne 0 ]; then
