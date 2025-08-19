@@ -9,7 +9,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 if [ $# -ne 2 ]; then
-  echo "Using: $0 <ISO dosyası> <hedef disk>"
+  echo "Using: $0 <ISO file> <target disk>"
   exit 1
 fi
 
